@@ -1,0 +1,76 @@
+/*GLOBAL STYLES*/
+
+html, body {
+    
+    height:100%;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#74afad;
+    font-family:'Trebuchet MS', Verdana, sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:#fff;
+}
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color:#C63D0F;
+}
+
+h1 {
+    font-size:2em;
+}
+
+p {
+    color:#000;
+    margin 15px 0px; /*First value is top and bottom, the second is left a right*/
+    line-height:20px /*creates height in the line around the font*/
+}
+
+a {
+    text-decoration:none;
+    color:#ececea;
+}
+
+a:hover {
+    color:#000;
+}
+
+/* =====HEADER STYLES=====*/
+
+header {
+    height: 100px;
+    background-color:#D9853B;
+}
+
+#logo {
+    color:#FFF;
+}
+
+#logo:hover {
+    color:#DFE2DB;
+}
+
+
+
+/*======BANNER STYLES======*/
+
+#banner {
+    overflow:hidden;
+    padding:175px, 0px;
+    border-top:6px solid #D9853B;
+    background-color:#74afad;
+    background: url(../images/banner-home.jpg) no-repeat center center #000;
+    background-size:cover;
+}
+
+#bannerText {
+    color:#ffffff;
+    font-size:6em;
+    text-align: center;
+    text-shadow: 6px 6px #000000;
+}
